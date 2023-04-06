@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+pip install scikit-learn
 
 tfidf = pickle.load(open('vectorizer.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
